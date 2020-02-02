@@ -16,11 +16,11 @@ Most likely the intention was:
 var rotation = transform.rotation.eulerAngles.y;
 ```
 
-## EPU002: Using physics APIs in Update()
+## EPU002: Using FixedUpdate()-only APIs in Update() or LateUpdate()
 
 Time.fixedDeltaTime and other stuff used in Update(). Some physics-related API can be freely used anywhere though, e.g. Physics.ComputePenetration().
 
-## EPU003: Using Update()-context API in FixedUpdate()
+## EPU003: Using Update()-only APIs in FixedUpdate()
 
 Time.deltaTime, Input.Get___(), Input.Get___Up(), Input.Get___Down(), etc. used in FixedUpdate().
 
