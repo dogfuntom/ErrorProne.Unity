@@ -19,3 +19,7 @@ var rotation = transform.rotation.eulerAngles.y;
 ## Not planned
 
 Magic method name mistype: While it's an example that easily comes to mind first, nowadays it's hard to mistype a magic method name anyway, thanks to IntelliSence provided by the *Tools for Unity* extension.
+
+# Inspired by
+
+https://github.com/SergeyTeplyakov/ErrorProne.NET
